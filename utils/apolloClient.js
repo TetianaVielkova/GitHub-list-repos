@@ -11,7 +11,7 @@ const httpLink = createHttpLink({
     return {
       headers: {
         ...headers,
-        authorization: `Bearer ${token}`,
+        authorization: `Bearer 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`,
       },
     };
   });
