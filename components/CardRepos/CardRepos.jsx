@@ -14,7 +14,7 @@ export default function CardRepos({ data }) {
                 <Col xs={24} sm={12} md={11} lg={8} xl={7} key={node.id} style={colStyle}>
                     <Link style={linkStyle} href={node.url} target="_blank" >
                     {node.name}
-                    <div style={{ fontSize: '18px' }}>{node.primaryLanguage ? node.primaryLanguage.name : ''}</div>
+                    <div style={{ fontSize: '18px' }}>{node.primaryLanguage ? node.primaryLanguage.name : 'JAVASCRIPT'}</div>
                     <Date dateString={node.updatedAt}/>
                     </Link>
                 </Col>
